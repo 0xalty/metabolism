@@ -1,0 +1,4 @@
+conda create -n lightweightgan python=3.6
+conda activate lightweightgan
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+pip install lightweight-gan

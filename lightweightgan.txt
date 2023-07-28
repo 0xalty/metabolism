@@ -1,0 +1,74 @@
+Last login: Thu Jul 27 23:45:09 on console
+$ pip install lightweight-gan
+(base) takahashiryuuta@takahashiryuutanoMacBook-Pro ~ % $ pip install lightweight-gan
+zsh: command not found: $
+(base) takahashiryuuta@takahashiryuutanoMacBook-Pro ~ % 
+  [復元日時2023/07/28 15:25:06]
+Last login: Fri Jul 28 12:19:05 on ttys000
+Restored session: 2023年 7月28日 金曜日 12時44分16秒 JST
+(base) takahashiryuuta@takahashiryuutanoMacBook-Pro ~ % conda create -n lightweightgan python=3.6
+conda activate lightweightgan
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+pip install lightweight-gan
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 22.9.0
+  latest version: 23.7.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /Applications/anaconda3/envs/lightweightgan
+
+  added / updated specs:
+    - python=3.6
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2023.05.30 |       hecd8cb5_0         121 KB
+    certifi-2021.5.30          |   py36hecd8cb5_0         138 KB
+    ncurses-6.4                |       hcec6c5f_0        1018 KB
+    openssl-1.1.1u             |       hca72f7f_0         3.4 MB
+    pip-21.2.2                 |   py36hecd8cb5_0         1.8 MB
+    python-3.6.13              |       h88f2d9e_0        16.8 MB
+    readline-8.2               |       hca72f7f_0         328 KB
+    setuptools-58.0.4          |   py36hecd8cb5_0         777 KB
+    sqlite-3.41.2              |       h6c40b1e_0         1.2 MB
+    xz-5.4.2                   |       h6c40b1e_0         372 KB
+    zlib-1.2.13                |       h4dc903c_0          96 KB
+    ------------------------------------------------------------
+                                           Total:        26.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/osx-64::ca-certificates-2023.05.30-hecd8cb5_0 None
+  certifi            pkgs/main/osx-64::certifi-2021.5.30-py36hecd8cb5_0 None
+  libcxx             pkgs/main/osx-64::libcxx-14.0.6-h9765a3e_0 None
+  libffi             pkgs/main/osx-64::libffi-3.3-hb1e8313_2 None
+  ncurses            pkgs/main/osx-64::ncurses-6.4-hcec6c5f_0 None
+  openssl            pkgs/main/osx-64::openssl-1.1.1u-hca72f7f_0 None
+  pip                pkgs/main/osx-64::pip-21.2.2-py36hecd8cb5_0 None
+  python             pkgs/main/osx-64::python-3.6.13-h88f2d9e_0 None
+  readline           pkgs/main/osx-64::readline-8.2-hca72f7f_0 None
+  setuptools         pkgs/main/osx-64::setuptools-58.0.4-py36hecd8cb5_0 None
+  sqlite             pkgs/main/osx-64::sqlite-3.41.2-h6c40b1e_0 None
+  tk                 pkgs/main/osx-64::tk-8.6.12-h5d9f67b_0 None
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0 None
+  xz                 pkgs/main/osx-64::xz-5.4.2-h6c40b1e_0 None
+  zlib               pkgs/main/osx-64::zlib-1.2.13-h4dc903c_0 None
+
+
+Proceed ([y]/n)? 
